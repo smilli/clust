@@ -12,9 +12,9 @@ def cluster_ngrams(ngrams, compute_distance, max_dist, method):
         compute_distance: [func] Function that computes distance between two
             pairs of ngrams.
         max_dist: [float] Maximum distance allowed for two clusters to merge.
-        method: [string] Method to use for lustering.  'single',
+        method: [string] Method to use for clustering.  'single',
             'complete', 'average', 'centroid', 'median', 'ward', or 'weighted'.
-            See http://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html#scipy.cluster.hierarchy.linkage for details.
+            See http://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html for details.
 
     Returns:
         clusters: [list] List of ngrams in each cluster.
