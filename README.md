@@ -10,7 +10,7 @@ Returns a list of ngrams in each cluster.
 - **max_dist**: [float] If the distance between two clusters is more than max_dist, then the clusters will not be merged together.
 - **method**: [string] Method for clustering.  'single', 'complete', 'average', 'centroid', 'median', 'ward', or 'weighted'.  See the [Scipy docs](http://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html) for details.
   
-# Exmaple
+# Example
     >>> from clust import cluster_ngrams, dl_ngram_dist
     >>> ngrams = [['from', 'my', 'house'],                                                  
     ...['from', 'my', 'hose'],                                                   
