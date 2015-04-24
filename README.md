@@ -3,7 +3,7 @@ Cluster ngrams in Python.  Clustering is done using [Scipy's hierarchy clusterin
 
 # Usage
 
-### `cluster_ngram(ngrams, compute_distance, max_dist, method)`
+### `cluster_ngrams(ngrams, compute_distance, max_dist, method)`
 Returns a list of ngrams in each cluster.
 - **ngrams**: [list] List of ngrams to cluster.  Ex: [['my', 'cat', 'ran'], ['i', 'like', 'trigrams']]
 - **compute_distance**: [func] Distance function that takes two ngrams as input and returns the distance between them.  This package includes a function that sums the [Damerau–Levenshtein distance](https://github.com/gfairchild/pyxDamerauLevenshtein) between the words in both ngrams as `dl_ngram_dist`
